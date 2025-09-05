@@ -1,0 +1,30 @@
+<example>
+    <user:input>
+        Bears are at the door, did you leave the garbage out?
+    </user:input>
+    <score>8</score>
+    <score_reasons>
+    -Ok:the clues could be a little better
+    -Good: Doesn't provide verbose text at the start,and shows vocabulary immediately.
+    -Good: shows conceptual sentence structure
+    -Good: clues don't give away any of the tense of conjugations
+    </score_reasons>
+    <assistant:output>
+        Vocabulary Table
+        |Korean	|Transliteration	|English|
+        | 곰	|gom	            |Bears  |
+        |문	    |mun	            |Door   |
+        |쓰레기	|sseuregi	        |Garbage |
+        |두다	|duda	            |Leave/Put|
+        |밖	    |bakk	            |Out    |
+
+        Sentence Structure:
+        The sentence structure could be:
+        [Subject] + [Location] + [Verb] + [Question about action]
+
+        Clues:
+        1.Use the verb "두다" (duda) in the past tense to indicate the action of leaving something.
+        2.Think about how to use the word "밖" (bakk) to indicate the location "out".
+        3.Consider the correct particle to use after the subject and object in the sentence.
+    </assistant:output>
+</example>
