@@ -1,0 +1,58 @@
+<sentence_structures>
+   <example>
+       <sentence>I eat apples.</sentence>
+       <structure>[Subject] + [Object] + [Verb]</structure>
+   </example>
+   <example>
+       <sentence>I watched a movie.</sentence>
+       <structure>[Subject] + [Object] + [Verb in past tense]</structure>
+   </example>
+   <example>
+       <sentence>I will study tomorrow.</sentence>
+       <structure>[Subject] + [Time] + [Verb in future form]</structure>
+   </example>
+   <example>
+       <sentence>The book is in the library.</sentence>
+       <structure>[Object] + [Location] + [Existence verb]</structure>
+   </example>
+   <example>
+       <sentence>Did you eat breakfast?</sentence>
+       <structure>[Subject] + [Object] + [Verb] + [?]</structure>
+   </example>
+   <example>
+       <sentence>Where is the school?</sentence>
+       <structure>[Object] + [Question word] + [Verb]</structure>
+   </example>
+   <example>
+       <sentence>My friend has a book.</sentence>
+       <structure>[Possessor] + [Object] + [Verb]</structure>
+   </example>
+   <example>
+       <sentence>She is doing homework.</sentence>
+       <structure>[Subject] + [Object] + [Verb in progressive]</structure>
+   </example>
+   <example>
+       <sentence>I like coffee.</sentence>
+       <structure>[Subject] + [Object] + [Verb of liking]</structure>
+   </example>
+   <example>
+       <sentence>He plays soccer.</sentence>
+       <structure>[Subject] + [Object] + [Verb]</structure>
+   </example>
+   <example>
+       <sentence>We met yesterday.</sentence>
+       <structure>[Subject] + [Time] + [Verb in past tense]</structure>
+   </example>
+   <example>
+       <sentence>They will come soon.</sentence>
+       <structure>[Subject] + [Adverb] + [Verb in future form]</structure>
+   </example>
+   <example>
+       <sentence>The teacher is in the classroom.</sentence>
+       <structure>[Subject] + [Location] + [Existence verb]</structure>
+   </example>
+   <example>
+       <sentence>What are you doing now?</sentence>
+       <structure>[Subject] + [Time] + [Verb in progressive] + [?]</structure>
+   </example>
+</sentence_structures>
