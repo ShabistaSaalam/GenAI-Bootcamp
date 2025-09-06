@@ -1,0 +1,39 @@
+<example>
+    <example>
+        <output>
+            Clues, Considerations, Next Steps
+
+            - You'll need to conjugate the verbs into the appropriate tense and politeness level
+
+            - "Did you see...?" requires using the past tense and question form
+
+            - "This morning" is a time expression and should be placed early in the sentence
+
+            - “They were looking” can be expressed with a progressive action verb, but at this level, you can simply use the basic verb for "to look at"
+
+            - Use the correct particle to mark the object (raven) and location (garden)
+
+            - Think about whether you need to say “they” explicitly — Korean often implies the subject if it's clear from context
+
+            🔁 Next Step:
+             - Try writing your Korean sentence using the words and structure above! I’ll check your attempt and guide you from there.
+                    </output>
+        <score>6</score>
+        <score:reason>
+            This example output scores 6 because the returned information is too verbose
+        </score:reason>
+    </example>
+    <example>
+        <output>
+        Next Steps 
+        - Think about how words connect to each other
+        - The verb form needs to show it happened before now
+        - Make the first sentence a polite question in past tense
+        - Put the time expression near the start
+        </output>
+        <score>10</score>
+        <score:reason>
+            This example output scores 10 because the returned information is concise
+        </score:reason>
+    </example>
+</example>

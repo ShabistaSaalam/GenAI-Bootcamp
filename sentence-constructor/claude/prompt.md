@@ -97,4 +97,3 @@ Act as an expert AI instructor evaluating a student's attempt. Analyze the stude
 Here are example of user input and assistant output,pay attention to the score because and why the example is scored the way it is:<file>examples.xml</file>
 
 ## Student Input:
-Did you see the raven this morning? They were looking at our garden
