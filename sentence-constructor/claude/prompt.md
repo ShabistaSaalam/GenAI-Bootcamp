@@ -80,6 +80,7 @@ Here is an example of simple sentence structure<file>examples.xml</file>
 
 - try and provide a non-nested bulleted list
 - talk about vocabulary but try to leave out the korean words because the students can refer to the vocabulary table 
+- refernce the <file>considerations_examples.xml</file> for good consideration examples
 
 ### Korean Sentence Attempt
 When the input is Korean Text then the student is making an attempt at the answer
@@ -96,4 +97,8 @@ Act as an expert AI instructor evaluating a student's attempt. Analyze the stude
 ## Example
 Here are example of user input and assistant output,pay attention to the score because and why the example is scored the way it is:<file>examples.xml</file>
 
-## Student Input:
+## Teacher Tests
+
+please read this file so you can see more examples to provide better output
+<file>korean_teaching_test.md</file>
+
