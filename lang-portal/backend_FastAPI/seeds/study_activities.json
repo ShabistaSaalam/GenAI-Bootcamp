@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Vocabulary Quiz",
+    "thumbnail": "/thumbnails/flashcards.png",
+    "description": "Practice vocabulary with digital flash cards",
+    "url": "https://flashcards.app/launch"
+  },
+  {
+    "name": "Listening Practice",
+    "thumbnail": "/thumbnails/listening.png",
+    "description": "Improve listening skills with audio exercises",
+    "url": "https://listening.app/launch"
+  },
+  {
+    "name": "Speaking Practice",
+    "thumbnail": "/thumbnails/speaking.png",
+    "description": "Practice pronunciation and speaking skills",
+    "url": "https://speaking.app/launch"
+  },
+  {
+    "name": "Writing Exercise",
+    "thumbnail": "/thumbnails/writing.png",
+    "description": "Practice writing Korean characters and words",
+    "url": "https://writing.app/launch"
+  },
+  {
+    "name": "Grammar Drills",
+    "thumbnail": "/thumbnails/grammar.png",
+    "description": "Learn and practice Korean grammar patterns",
+    "url": "https://grammar.app/launch"
+  }
+]
