@@ -10,12 +10,38 @@ A language learning school wants to build a prototype of learning portal which w
 
 ## Technical Requirements
 
-- The backend will be built using Go
+- The backend will be built using Python
 - The database will be SQLite3
-- The API will be built using Gin
+- The API will be built using FastAPI
 - The API will always return JSON
 - There will be no authentication or authorization 
 - Everything will be treated as a single user
+
+## Directory Structure
+
+```text
+backend-FastAPI/
+├── main.py                 # Starts the FastAPI app and includes app initialization
+├── models.py               # SQLAlchemy ORM models (Word, Group, StudySession, etc.)
+├── database.py             # Database connection, session management, Base metadata
+├── schemas.py              # Pydantic models for request/response validation
+├── routers/                # All API routes broken into domain modules
+│   ├── words.py
+│   ├── groups.py
+│   ├── study_sessions.py
+│   ├── study_activities.py
+│   └── dashboard.py
+├── tasks.py                # Optional: automation scripts or background tasks
+├── words.db                # SQLite database (auto-generated )
+├── migrations/             # Database migration SQLs or Alembic 
+│   ├── 0001_init.sql
+│   ├── 0002_create_tables.sql
+│   └── 0003_add_indexes.sql
+└── seeds/                  # Initial seed data (e.g., JSON files)
+    └── ...
+
+
+```
 
 ## Database Schema
 
@@ -115,9 +141,9 @@ We have the following tables:
   ],
   "pagination":{
         "current_page":1,
-        "total_pages":1,
-        "total_items":10,
-        "items_per_page":100
+        "total_pages":3,
+        "total_items":50,
+        "items_per_page":20
     }
 }
 ```
@@ -149,7 +175,7 @@ We have the following tables:
   ],
    "pagination":{
         "current_page":1,
-        "total_pages":5,
+        "total_pages":1,
         "total_items":20,
         "items_per_page":100
     }
@@ -326,7 +352,7 @@ Returns quick overview statistics
   ],
   "pagination":{
         "current_page":1,
-        "total_pages":5,
+        "total_pages":1,
         "total_items":20,
         "items_per_page":100
     }
