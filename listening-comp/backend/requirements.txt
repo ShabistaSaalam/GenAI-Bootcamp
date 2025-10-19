@@ -1,0 +1,4 @@
+streamlit
+chromadb
+cohere
+youtube_transcript_api
